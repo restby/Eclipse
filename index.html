@@ -13,21 +13,21 @@
           <img class="navigation__img-logo" width="20" height="20" src="#" alt="логотип">
           <ul class="navigation__list">
             <li class="navigation__item  navigation__item--about">
-              <a href="#" class="navigation__link  navigation__link--about">ABOUT</a>
+              <a class="navigation__link  navigation__link--about" href="#" aria-label="ссылка на страницу about">ABOUT</a>
             </li>
             <li class="navigation__item  navigation__item--studio">
-              <a href="#" class="navigation__link  navigation__link--studio">STUDIO</a>
+              <a class="navigation__link  navigation__link--studio" href="#" aria-label="ссылка на страницу studio">STUDIO</a>
             </li>
             <li class="navigation__item  navigation__item--pricing">
-              <a href="#" class="navigation__link  navigation__link--pricing">PRICING</a>
+              <a class="navigation__link  navigation__link--pricing" href="#" aria-label="ссылка на страницу pricing">PRICING</a>
             </li>
             <li class="navigation__item  navigation__item--blog">
-              <a href="#" class="navigation__link  navigation__link--blog">BLOG</a>
+              <a class="navigation__link  navigation__link--blog" href="#" aria-label="ссылка на страницу blog">BLOG</a>
             </li>
           </ul>
           <ul class="navigation__user">
             <li class="navigation__user-item  navigation__user-item--join">
-              <a href="#" class="navigation__user-link  navigation__user-link--join">Join</a>
+              <a class="navigation__user-link  navigation__user-link--join" href="#" aria-label="ссылка на страницу входа в личный кабинет">Join</a>
             </li>
           </ul>
         </div>
@@ -36,13 +36,44 @@
         <b class="designs__slogan">Push yourself & your designs</b>
         <p class="designs__small-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="designs__wrapper">
-          <input type="text" class="designs__input" placeholder="Design Style">
-          <input type="text" class="designs__input" placeholder="Email">
-          <button class="designs__btn-submit"><span class="visually-hidden">отправить</span></button>
+          <input type="text" class="designs__input" placeholder="Design Style" aria-label="поле для ввода стиля дизайна">
+          <input type="text" class="designs__input" placeholder="Email" aria-label="поле для ввода электронной почты">
+          <button class="designs__btn-submit" aria-label="кнопка отправить форму"><span class="visually-hidden">отправить</span></button>
         </div>
       </form>
     </header>
     <main class="page-main">
+      <section class="latest-design">
+        <h2 class="latest-design__title">LATEST DESIGN STYE</h2>
+        <p class="latest-design__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <img class="latest-design__img" width="20" height="20" src="№" alt="фоновое изображение раздела">
+      </section>
+      <section class="features">
+        <h2 class="features__title">FEATURES OF APP</h2>
+        <p class="features__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul class="features__list">
+          <li class="features__item  features__item--1">
+            <img class="features__item-img  features__item-img--1" width="20" height="20" src="#" alt="изображение features №1">
+            <h3 class="features__item-title  features__item-title--1">Lorem ipsum dolor sit</h3>
+            <p class="features__item-desc  features__item-desc--1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+          </li>
+          <li class="features__item  features__item--2">
+            <img class="features__item-img  features__item-img--2" width="20" height="20" src="#" alt="изображение features №2">
+            <h3 class="features__item-title  features__item-title--2">ametconsectetur</h3>
+            <p class="features__item-desc  features__item-desc--2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+          </li>
+          <li class="features__item  features__item--3">
+            <img class="features__item-img  features__item-img--3" width="20" height="20" src="#" alt="изображение features №3">
+            <h3 class="features__item-title  features__item-title--3">Lorem ipsum dolor sit</h3>
+            <p class="features__item-desc  features__item-desc--3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          </li>
+          <li class="features__item  features__item--4">
+            <img class="features__item-img  features__item-img--4" width="20" height="20" src="#" alt="изображение features №4">
+            <h3 class="features__item-title  features__item-title--4">Lorem ipsum dolor sit</h3>
+            <p class="features__item-desc  features__item-desc--4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+          </li>
+        </ul>
+      </section>
 
 
     </main>
@@ -50,37 +81,37 @@
       <div class="footer-nav">
         <ul class="footer-nav__list  footer-nav__list--list1">
           <li class="footer-nav__item  footer-nav__item--about">
-            <a class="footer-nav__link  footer-nav__link--about" href="#">About Us</a>
+            <a class="footer-nav__link  footer-nav__link--about" href="#" aria-label="ссылка на страницу about">About Us</a>
           </li>
           <li class="footer-nav__item  footer-nav__item--support">
-            <a class="footer-nav__link  footer-nav__link--support" href="#">Support</a>
+            <a class="footer-nav__link  footer-nav__link--support" href="#" aria-label="ссылка на страницу support">Support</a>
           </li>
           <li class="footer-nav__item  footer-nav__item--why">
-            <a class="footer-nav__link  footer-nav__link--why" href="#">Why Buy</a>
+            <a class="footer-nav__link  footer-nav__link--why" href="#" aria-label="ссылка на страницу why-buy">Why Buy</a>
           </li>
           <li class="footer-nav__item  footer-nav__item--affiliates">
-            <a class="footer-nav__link  footer-nav__link--affiliates" href="#">Affiliates</a>
+            <a class="footer-nav__link  footer-nav__link--affiliates" href="#" aria-label="ссылка на страницу affiliates">Affiliates</a>
           </li>
         </ul>
         <ul class="footer-nav__list  footer-nav__list--list2">
           <li class="footer-nav__item  footer-nav__item--contact">
-            <a class="footer-nav__link  footer-nav__link--contact" href="#">Contact Us</a>
+            <a class="footer-nav__link  footer-nav__link--contact" href="#" aria-label="ссылка на страницу contact">Contact Us</a>
           </li>
           <li class="footer-nav__item  footer-nav__item--returns">
-            <a class="footer-nav__link  footer-nav__link--returns" href="#">Returns</a>
+            <a class="footer-nav__link  footer-nav__link--returns" href="#" aria-label="ссылка на страницу returns">Returns</a>
           </li>
         </ul>
         <p class="footer-nav__small-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
       </div>
       <div class="page-footer__wrapper">
-        <a href="#" class="page-footer__link  page-footer__link--tw"></a>
-        <a href="#" class="page-footer__link  page-footer__link--fb"></a>
+        <a href="#" class="page-footer__link  page-footer__link--tw" aria-label="кнопка для перехода к началу страницы"></a>
+        <a href="#" class="page-footer__link  page-footer__link--fb" aria-label="кнопка для перехода к началу страницы"></a>
       </div>
       <p class="page-footer__made">Made in Melbourne By BlazRobar.com @BlazRobar</p>
       <p class="page-footer__copyright">Copyright © 2016, Cool stuff here</p>
     </footer>
-    <button class="move-up" type="button"></button>
-    <button class="contact-us" type="button">Contact-Us</button>
+    <button class="move-up" type="button" aria-label="кнопка для перехода к началу страницы"></button>
+    <button class="contact-us" type="button" aria-label="кнопка октрыть чат">Contact-Us</button>
     <script src="js/script.min.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
