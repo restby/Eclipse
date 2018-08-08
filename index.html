@@ -7,11 +7,45 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
-    <header class="page_header">
+    <header class="page-header">
+      <nav class="navigation">
+        <div class="navigation__logo">
+          <img class="navigation__img-logo" width="20" height="20" src="#" alt="логотип">
+          <ul class="navigation__list">
+            <li class="navigation__item  navigation__item--about">
+              <a href="#" class="navigation__link  navigation__link--about">ABOUT</a>
+            </li>
+            <li class="navigation__item  navigation__item--studio">
+              <a href="#" class="navigation__link  navigation__link--studio">STUDIO</a>
+            </li>
+            <li class="navigation__item  navigation__item--pricing">
+              <a href="#" class="navigation__link  navigation__link--pricing">PRICING</a>
+            </li>
+            <li class="navigation__item  navigation__item--blog">
+              <a href="#" class="navigation__link  navigation__link--blog">BLOG</a>
+            </li>
+          </ul>
+          <ul class="navigation__user">
+            <li class="navigation__user-item  navigation__user-item--join">
+              <a href="#" class="navigation__user-link  navigation__user-link--join">Join</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <form action="https://echo.htmlacademy.ru" method="GET" class="designs">
+        <b class="designs__slogan">Push yourself & your designs</b>
+        <p class="designs__small-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="designs__wrapper">
+          <input type="text" class="designs__input" placeholder="Design Style">
+          <input type="text" class="designs__input" placeholder="Email">
+          <button class="designs__btn-submit"><span class="visually-hidden">отправить</span></button>
+        </div>
+      </form>
     </header>
-    <main class="page_main">
+    <main class="page-main">
+
     </main>
-    <footer class="page_footer">
+    <footer class="page-footer">
     </footer>
     <script src="js/script.min.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
